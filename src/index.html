@@ -1,11 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alto Impacto</title>
+    <title>Liga Brasileira de Muay Thai, Kickboxing e Boxe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+    <link rel="icon" type="image/png" href="/src/img/favicon/favicon.png">
 </head>
 <body>
-    
+
+    <header class="app-header">
+        <div class="logo">LBMKB</div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#representante">Representante</a>
+            <a href="#regras">Regras</a>
+            
+            <div class="dropdown">
+                <a href="#eventos" class="dropbtn">Eventos <i class="mdi mdi-menu-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="#reciclagens">Reciclagem</a>
+                    <a href="#graduacoes">Graduaçao</a>
+                    <a href="#fotos">Fotos</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#filiacoes" class="dropbtn">Filiações <i class="mdi mdi-menu-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="#professores">Professores Grau Preto</a>
+                    <a href="#equipes">Equipes</a>
+                    <a href="#consulta-professores">Consulta dos Professores Filiados</a>
+                </div>
+            </div>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-overlay">
+            <h1>LBMKB: A União das Artes de Combate</h1>
+            <p>Liga Brasileira de Muay Thai, Kickboxing e Boxe</p>
+            <button class="btn-primary">Conheca nossa Liga</button>
+        </div>
+    </section>
+
+    <section id="sobre" class="content-section alternate-bg">
+        <h2>Sobre a LBMKB</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam iste eveniet. Illo, sapiente. Necessitatibus modi veritatis quae deleniti dignissimos eum ad cum ipsum, laboriosam inventore assumenda doloremque nesciunt libero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam iste eveniet. Illo, sapiente. Necessitatibus modi veritatis quae deleniti dignissimos eum ad cum ipsum, laboriosam inventore assumenda doloremque nesciunt libero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam iste eveniet. Illo, sapiente. Necessitatibus modi veritatis quae deleniti dignissimos eum ad cum ipsum, laboriosam inventore assumenda doloremque nesciunt libero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam iste eveniet. Illo, sapiente. Necessitatibus modi veritatis quae deleniti dignissimos eum ad cum ipsum, laboriosam inventore assumenda doloremque nesciunt libero.</p>
+    </section>
+
+    <section id="representante" class="content-section">
+        <h2>Representante da Liga</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam iste eveniet. Illo, sapiente. Necessitatibus modi veritatis quae deleniti dignissimos eum ad cum ipsum, laboriosam inventore assumenda doloremque nesciunt libero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam iste eveniet. Illo, sapiente. Necessitatibus modi veritatis quae deleniti dignissimos eum ad cum ipsum, laboriosam inventore assumenda doloremque nesciunt libero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam iste eveniet. Illo, sapiente. Necessitatibus modi veritatis quae deleniti dignissimos eum ad cum ipsum, laboriosam inventore assumenda doloremque nesciunt libero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam iste eveniet. Illo, sapiente. Necessitatibus modi veritatis quae deleniti dignissimos eum ad cum ipsum, laboriosam inventore assumenda doloremque nesciunt libero.</p>
+    </section>
+
+    <section id="regras" class="content-section alternate-bg">
+        <h2>Regras de Conduta</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam iste eveniet. Illo, sapiente. Necessitatibus modi veritatis quae deleniti dignissimos eum ad cum ipsum, laboriosam inventore assumenda doloremque nesciunt libero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam iste eveniet. Illo, sapiente. Necessitatibus modi veritatis quae deleniti dignissimos eum ad cum ipsum, laboriosam inventore assumenda doloremque nesciunt libero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam iste eveniet. Illo, sapiente. Necessitatibus modi veritatis quae deleniti dignissimos eum ad cum ipsum, laboriosam inventore assumenda doloremque nesciunt libero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam iste eveniet. Illo, sapiente. Necessitatibus modi veritatis quae deleniti dignissimos eum ad cum ipsum, laboriosam inventore assumenda doloremque nesciunt libero.</p>
+    </section>
+
+    <section id="graduados" class="content-section graduates-section">
+        <h2>Quadro de Alunos Graduados</h2>
+        <p>Consulte aqui os atletas reconhecidos e graduados oficialmente pela LBMKB com vinculo a Cobram.</p>
+        <div id="aluno-cards-container" class="aluno-cards-container"></div>
+        <button class="btn-secondary">VER TODOS OS GRADUADOS</button>
+    </section>
+
+    <footer id="contato" class="app-footer">
+        <div class="contact-info">
+            <p>Nossos Contatos</p>
+            <p><i class="mdi mdi-phone"></i> (75) 99827-2732 | <i class="mdi mdi-email"></i> testeemail@lbmkb.com.br</p>
+        </div>
+        <div class="social-media">
+            <a href="https://encurtador.com.br/NErwo" target="_blank"><i class="mdi mdi-instagram"></i></a>
+            <a href="#" target="_blank"><i class="mdi mdi-whatsapp"></i></a>
+        </div>
+        <p class="copyright">LBMKB Copyright © <span id="current-year"></span> - Todos os Direitos Reservados</p>
+    </footer>
+    <button id="scrollTopBtn" title="Voltar ao Topo">
+        <i class="mdi mdi-arrow-up"></i>
+    </button>
+    <script src="/main.js"></script> 
 </body>
 </html>
