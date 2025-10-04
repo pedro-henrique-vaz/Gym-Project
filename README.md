@@ -17,8 +17,6 @@ Feita com foco em simplicidade, desempenho e fácil manutenção.
 - 🥇 Detalhes sobre os graus de graduação
 - ⏳ Tempo de atividade e títulos conquistados
 - 🗓️ Seção de assaltos (momentos marcantes)
-- 🧾 Formulário de cadastro de membros (nome e e-mail únicos, sem banco de dados)
-- 🔒 Estrutura pensada para futuras funções administrativas (como controle financeiro e cadastro de alunos)
 - 🧩 Geração futura de certificados de **graduação** e **reciclagem** com dados personalizados
 
 ---
