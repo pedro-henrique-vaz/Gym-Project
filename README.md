@@ -17,8 +17,6 @@ Feita com foco em simplicidade, desempenho e fácil manutenção.
 - 🥇 Detalhes sobre os graus de graduação
 - ⏳ Tempo de atividade e títulos conquistados
 - 🗓️ Seção de assaltos (momentos marcantes)
-- 🧾 Formulário de cadastro de membros (nome e e-mail únicos, sem banco de dados)
-- 🔒 Estrutura pensada para futuras funções administrativas (como controle financeiro e cadastro de alunos)
 - 🧩 Geração futura de certificados de **graduação** e **reciclagem** com dados personalizados
 
 ---
@@ -30,7 +28,6 @@ Feita com foco em simplicidade, desempenho e fácil manutenção.
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=fff) 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=fff)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=fff)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=fff)
 
 </div>
 
